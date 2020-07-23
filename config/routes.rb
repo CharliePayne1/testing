@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  resources :cases
-  resources :doctors
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  
+  resources :cases, only: [:index, :show, :create, :update]
+
+  post '/login', to: 'doctors#login'
+  get '/validate', to: 'doctors#validate'
+
 end
+
