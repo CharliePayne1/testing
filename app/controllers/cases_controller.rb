@@ -1,4 +1,4 @@
-class CasesController < ApplicationControllerå
+class CasesController < ApplicationController
 
     def index
         if current_doctor
