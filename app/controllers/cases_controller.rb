@@ -28,8 +28,8 @@ class CasesController < ApplicationController
 
     private
 
-        def case_params
-            params.require(:case).permit(:symptoms, :image_url, :email)
-        end
+    def case_params
+        params.require(:case).permit(:symptoms, :image_url, :email)
+    end
 
 end
