@@ -1,5 +1,5 @@
 class TripleOneEmailMailer < ApplicationMailer
-    default from: Rails.application.secrets.email_user_name
+    default from: "tripleoneemailaddress@gmail.com"
 
     def decision_email(update_case)
         @update_case = update_case
