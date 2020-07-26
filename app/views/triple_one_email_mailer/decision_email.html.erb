@@ -4,14 +4,14 @@
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
   </head>
   <body>
-    <h1>Thank you for using Triple one</h1>
+    <img src="https://images.vexels.com/media/users/3/151981/isolated/preview/f8863741dba8034b3e1d4809a01c782a-stethoscope-icon-medical-icons-by-vexels.png">
+    <h3>Thank you for using Triple one</h3>
     <br><br>
-    <h5>We have looked into your case and advise you to <%= @update_case.decision %>.</h5>
-    <h5>This decision has been made by <%= @update_case.doctor.username %>.
+    <h5><%= @update_case.doctor.username %> has looked into your case and has advised you to <%= @update_case.decision %>.</h5>
     <br><br>
     <br><br>
-    <span>Please do not reply to this email address, as all emails are automated and this inbox will not be checked.</span>
+    <span>Please do not reply to this email, as this inbox is not checked on a regular basis.</span>
     <span>This email has been sent on behalf of Triple One, though the views and advise received are solely attributred to the NHS user of this app.</span>
-    <span>Registered Address: 16 Astwood Mews, Kensington, SW7 4DE</span>
+    <span>Registered Address: <u>16 Astwood Mews, Kensington, SW7 4DE</u></span>
   </body>
 </html>
