@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2020_07_23_154506) do
     t.string "symptoms"
     t.string "image_url"
     t.string "email"
-    t.string "decision"
+    t.string "decision", default: "awaiting decision"
     t.bigint "doctor_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

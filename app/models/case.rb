@@ -3,5 +3,5 @@ class Case < ApplicationRecord
 
   validates :symptoms, presence: true
   validates :email, presence: true
-  
+
 end
